@@ -1,9 +1,8 @@
-from emoji import emojize
 from random import randint
 from time import sleep
 print('\033[33m-=-'*3 + '\n \033[m\033[7;97;40mJOKENPÔ\033[m\n\033[33m' + '-=-'*3 + '\033[m')
 escolhamaquina = randint(1, 3)
-escolhausuario = int(input(emojize('Vamos jogar \033[7;97;40mJOKENPÔ\033[m, digite a sua opção escolhida:\n\033[32m1\033[m - Pedra :mountain:\n\033[34m2\033[m - Papel :page_with_curl:\n\033[35m3\033[m - Tesoura :scissors:\n')))
+escolhausuario = int(input('Vamos jogar \033[7;97;40mJOKENPÔ\033[m, digite a sua opção escolhida:\n\033[32m1\033[m - Pedra\n\033[34m2\033[m - Papel\n\033[35m3\033[m - Tesoura\n'))
 tradumaquina = 'pedra'
 traduusuario = 'pedra'
 # Registrando a jogada em uma str
